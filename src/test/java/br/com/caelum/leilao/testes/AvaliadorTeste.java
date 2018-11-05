@@ -4,6 +4,7 @@ import br.com.caelum.leilao.dominio.Avaliador;
 import br.com.caelum.leilao.dominio.Lance;
 import br.com.caelum.leilao.dominio.Leilao;
 import br.com.caelum.leilao.dominio.Usuario;
+import org.junit.Before;
 import org.junit.Test;
 
 import java.util.List;
@@ -12,12 +13,23 @@ import static org.junit.Assert.*;
 
 public class AvaliadorTeste {
 
+
+    private Avaliador leiloeiro;
+    private Usuario joao;
+    private Usuario jose;
+    private Usuario maria;
+
+    @Before
+    public void criaAvaliador(){
+        this.leiloeiro = new Avaliador();
+        this.joao = new Usuario("Joao");
+        this.jose = new Usuario("José");
+        this.maria = new Usuario("Maria");
+    }
+
     @Test
     public void verificandoOsLeiloesemOrdemCrescente() {
         //Cenário: 3 lances em ordem crescente
-        Usuario joao = new Usuario("Joao");
-        Usuario jose = new Usuario("José");
-        Usuario maria = new Usuario("Maria");
 
         Leilao leilao = new Leilao("Playstation 3 Novo");
 
@@ -26,7 +38,6 @@ public class AvaliadorTeste {
         leilao.propoe(new Lance(maria,400.0));
 
         //execução da ação
-        Avaliador leiloeiro = new Avaliador();
         leiloeiro.avalia(leilao);
 
         //validação dos resultados
@@ -44,9 +55,6 @@ public class AvaliadorTeste {
     @Test
     public void verificandoOsLeiloesemOrdemCrescenteOutrosValores() {
         //Cenário: 3 lances em ordem crescente
-        Usuario joao = new Usuario("Joao");
-        Usuario jose = new Usuario("José");
-        Usuario maria = new Usuario("Maria");
 
         Leilao leilao = new Leilao("Playstation 3 Novo");
 
@@ -55,7 +63,6 @@ public class AvaliadorTeste {
         leilao.propoe(new Lance(maria,4000.0));
 
         //execução da ação
-        Avaliador leiloeiro = new Avaliador();
         leiloeiro.avalia(leilao);
 
         //validação dos resultados
@@ -73,12 +80,11 @@ public class AvaliadorTeste {
 
     @Test
     public void deveEntenderLeilaoComApenasUmLance() {
-        Usuario joao = new Usuario("Joao");
+
         Leilao leilao = new Leilao("Playstation 3 Novo");
 
         leilao.propoe(new Lance(joao,1000.0));
 
-        Avaliador leiloeiro = new Avaliador();
         leiloeiro.avalia(leilao);
 
         assertEquals(1000, leiloeiro.getMaiorLance(), 0.0001);
@@ -89,8 +95,7 @@ public class AvaliadorTeste {
 
     @Test
     public void deveEncontrarOsTresMaioresLances() {
-        Usuario joao = new Usuario("João");
-        Usuario maria = new Usuario("Maria");
+
         Leilao leilao = new Leilao("Playstation 3 Novo");
 
         leilao.propoe(new Lance(joao, 100.0));
@@ -98,7 +103,6 @@ public class AvaliadorTeste {
         leilao.propoe(new Lance(joao, 300.0));
         leilao.propoe(new Lance(maria, 400.0));
 
-        Avaliador leiloeiro = new Avaliador();
         leiloeiro.avalia(leilao);
 
         List<Lance> maiores = leiloeiro.getTresMaiores();
@@ -112,8 +116,7 @@ public class AvaliadorTeste {
 
     @Test
     public void deveEntenderLeilaoComLancesEmOrdemRandomica() {
-        Usuario joao = new Usuario("Joao");
-        Usuario maria = new Usuario("Maria");
+
         Leilao leilao = new Leilao("Playstation 3 Novo");
 
         leilao.propoe(new Lance(joao,200.0));
@@ -123,7 +126,6 @@ public class AvaliadorTeste {
         leilao.propoe(new Lance(joao,630.0));
         leilao.propoe(new Lance(maria,230.0));
 
-        Avaliador leiloeiro = new Avaliador();
         leiloeiro.avalia(leilao);
 
         assertEquals(700.0, leiloeiro.getMaiorLance(), 0.0001);
@@ -132,8 +134,7 @@ public class AvaliadorTeste {
 
     @Test
     public void deveEntenderLeilaoComLancesEmOrdemDecrescente() {
-        Usuario joao = new Usuario("Joao");
-        Usuario maria = new Usuario("Maria");
+
         Leilao leilao = new Leilao("Playstation 3 Novo");
 
         leilao.propoe(new Lance(joao,400.0));
@@ -141,7 +142,6 @@ public class AvaliadorTeste {
         leilao.propoe(new Lance(joao,200.0));
         leilao.propoe(new Lance(maria,100.0));
 
-        Avaliador leiloeiro = new Avaliador();
         leiloeiro.avalia(leilao);
 
         assertEquals(400.0, leiloeiro.getMaiorLance(), 0.0001);
