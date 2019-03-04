@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6e5f32a-d045-42ee-bb50-f867602ef8f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.attach_pid8489" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/caelum/leilao/dominio/CriadorDeLeilao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/caelum/leilao/testes/AvaliadorTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/caelum/leilao/testes/AvaliadorTeste.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,20 +14,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/caelum/leilao/testes/AvaliadorTeste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2030">
-              <caret line="172" column="33" lean-forward="true" selection-start-line="172" selection-start-column="33" selection-end-line="172" selection-end-column="33" />
+            <state relative-caret-position="2430">
+              <caret line="172" column="33" selection-start-line="172" selection-start-column="33" selection-end-line="172" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#741#742#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/leilao/dominio/Avaliador.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#970#971#0" expanded="true" />
+                <element signature="e#1005#1006#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -65,13 +77,13 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/cabreros/BabySteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/caelum/cabreros/testes/BabyStepsTeste.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/leilao/dominio/CriadorDeLeilao.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/caelum/leilao/testes/AvaliadorTeste.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1733" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="225" />
     <option name="y" value="101" />
     <option name="width" value="1141" />
     <option name="height" value="636" />
@@ -84,58 +96,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="CT-Testes-Unitarios" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CT-Testes-Unitarios" type="462c0819:PsiDirectoryNode" />
+              <item name="prometeu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prometeu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CT-Testes-Unitarios" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CT-Testes-Unitarios" type="462c0819:PsiDirectoryNode" />
+              <item name="prometeu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prometeu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CT-Testes-Unitarios" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CT-Testes-Unitarios" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CT-Testes-Unitarios" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CT-Testes-Unitarios" type="462c0819:PsiDirectoryNode" />
+              <item name="prometeu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prometeu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CT-Testes-Unitarios" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CT-Testes-Unitarios" type="462c0819:PsiDirectoryNode" />
+              <item name="prometeu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prometeu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="caelum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CT-Testes-Unitarios" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CT-Testes-Unitarios" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="caelum" type="462c0819:PsiDirectoryNode" />
-              <item name="dominio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CT-Testes-Unitarios" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,9 +302,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1733" y="101" width="1141" height="636" extended-state="0" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.44931507" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24261771" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -329,7 +320,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32626426" />
@@ -474,13 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/leilao/dominio/CriadorDeLeilao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -492,10 +476,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/caelum/leilao/testes/AvaliadorTeste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2430">
+          <caret line="172" column="33" selection-start-line="172" selection-start-column="33" selection-end-line="172" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/leilao/dominio/Avaliador.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state>
           <folding>
             <element signature="e#970#971#0" expanded="true" />
             <element signature="e#1005#1006#0" expanded="true" />
@@ -503,19 +496,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/caelum/leilao/testes/AvaliadorTeste.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2030">
-          <caret line="172" column="33" lean-forward="true" selection-start-line="172" selection-start-column="33" selection-end-line="172" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
         </state>
       </provider>
     </entry>
