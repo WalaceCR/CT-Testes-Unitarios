@@ -45,19 +45,20 @@ public class AvaliadorTeste {
 
     @Test
     public void verificandoOsLeiloesemOrdemCrescente() {
-        //Cenário: 3 lances em ordem crescente
-
+        //Passo 1 - Gerando cenários
+        //Dentro deste você gera a massa
         Leilao leilao = new Leilao("Playstation 3 Novo");
 
         leilao.propoe(new Lance(joao,250.0));
         leilao.propoe(new Lance(jose,300.0));
         leilao.propoe(new Lance(maria,400.0));
 
-        //execução da ação
+        //Passo 2 - execução da ação
+        //Execução do teste em si
         leiloeiro.avalia(leilao);
 
-        //validação dos resultados
-        // comparando a saida com o esperado
+        //Passo 3 - validação dos resultados
+        //comparando a saida com o esperado
         double maiorEsperado = 400;
         double menorEsperado = 250;
         double mediaEsperada = 316.6;
