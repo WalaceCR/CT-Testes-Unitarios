@@ -1,9 +1,9 @@
-package br.com.caelum.leilao.testes;
+package br.com.aplicacao.leilao.testes;
 
-import br.com.caelum.leilao.dominio.*;
+import br.com.aplicacao.leilao.dominio.*;
 import org.junit.*;
 import java.util.List;
-import static org.assertj.core.api.Assertions.*;
+
 import static org.junit.Assert.*;
 
 public class AvaliadorTeste {

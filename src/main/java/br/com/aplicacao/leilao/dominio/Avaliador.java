@@ -1,4 +1,4 @@
-package br.com.caelum.leilao.dominio;
+package br.com.aplicacao.leilao.dominio;
 
 import java.util.ArrayList;
 import java.util.Collections;

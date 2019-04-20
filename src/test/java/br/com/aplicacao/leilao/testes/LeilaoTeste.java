@@ -1,10 +1,10 @@
-package br.com.caelum.leilao.testes;
+package br.com.aplicacao.leilao.testes;
 
-import br.com.caelum.leilao.dominio.Lance;
-import br.com.caelum.leilao.dominio.Leilao;
+import br.com.aplicacao.leilao.dominio.Lance;
+import br.com.aplicacao.leilao.dominio.Leilao;
 import static org.junit.Assert.*;
 
-import br.com.caelum.leilao.dominio.Usuario;
+import br.com.aplicacao.leilao.dominio.Usuario;
 import org.junit.Test;
 
 

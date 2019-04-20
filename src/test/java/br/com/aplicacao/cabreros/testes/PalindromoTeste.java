@@ -1,6 +1,6 @@
-package br.com.caelum.cabreros.testes;
+package br.com.aplicacao.cabreros.testes;
 
-import br.com.caelum.cabreros.Palindromo;
+import br.com.aplicacao.cabreros.Palindromo;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package br.com.caelum.cabreros;
+package br.com.aplicacao.cabreros;
 
 public class Palindromo {
     public boolean ehPalindromo(String frase) {

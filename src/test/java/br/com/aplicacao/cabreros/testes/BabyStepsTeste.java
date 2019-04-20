@@ -1,5 +1,5 @@
-package br.com.caelum.cabreros.testes;
-import br.com.caelum.cabreros.BabySteps;
+package br.com.aplicacao.cabreros.testes;
+import br.com.aplicacao.cabreros.BabySteps;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
