@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6e5f32a-d045-42ee-bb50-f867602ef8f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/caelum/cabreros/BabySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/aplicacao/cabreros/BabySteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/caelum/cabreros/Palindromo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/aplicacao/cabreros/Palindromo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/caelum/leilao/dominio/Avaliador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/aplicacao/leilao/dominio/Avaliador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/caelum/leilao/dominio/CriadorDeLeilao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/aplicacao/leilao/dominio/CriadorDeLeilao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/caelum/leilao/dominio/Lance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/aplicacao/leilao/dominio/Lance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/caelum/leilao/dominio/Leilao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/aplicacao/leilao/dominio/Leilao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/caelum/leilao/dominio/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/aplicacao/leilao/dominio/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/caelum/cabreros/testes/BabyStepsTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/aplicacao/cabreros/testes/BabyStepsTeste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/caelum/cabreros/testes/PalindromoTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/aplicacao/cabreros/testes/PalindromoTeste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/caelum/leilao/testes/AvaliadorTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/aplicacao/leilao/testes/AvaliadorTeste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/caelum/leilao/testes/LeilaoTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/aplicacao/leilao/testes/LeilaoTeste.java" afterDir="false" />
-    </list>
+    <list default="true" id="c6e5f32a-d045-42ee-bb50-f867602ef8f6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,22 +19,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aplicacao/leilao/testes/AvaliadorTeste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="210">
+              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#946#947#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aplicacao/cabreros/testes/PalindromoTeste.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aplicacao/leilao/testes/LeilaoTeste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+            <state relative-caret-position="94">
+              <caret line="69" column="51" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -187,7 +172,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555770820040" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555770862277" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -326,12 +311,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="br_com_caelum_leilao_testes_in_testes-leilao - 2018.11.06 at 09h 57m 24s.xml">
-      <configuration name="br.com.caelum.leilao.testes in testes-leilao" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="br_com_caelum_leilao_testes_in_testes-leilao - 2018.11.06 at 10h 03m 40s.xml">
-      <configuration name="br.com.caelum.leilao.testes in testes-leilao" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="br_com_caelum_leilao_testes_in_testes-leilao - 2018.11.06 at 10h 04m 08s.xml">
       <configuration name="br.com.caelum.leilao.testes in testes-leilao" configurationId="AndroidJUnit" />
     </history-entry>
@@ -356,10 +335,15 @@
     <history-entry file="AvaliadorTeste - 2019.03.31 at 07h 48m 53s.xml">
       <configuration name="AvaliadorTeste" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AvaliadorTeste - 2019.04.20 at 11h 31m 55s.xml">
+      <configuration name="AvaliadorTeste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AvaliadorTeste - 2019.04.20 at 11h 33m 48s.xml">
+      <configuration name="AvaliadorTeste" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2482043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -376,10 +360,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.14192496" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4211382" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32626426" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32960895" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -501,16 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aplicacao/leilao/testes/LeilaoTeste.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="69" column="51" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aplicacao/leilao/dominio/CriadorDeLeilao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -539,22 +514,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aplicacao/leilao/testes/AvaliadorTeste.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aplicacao/cabreros/testes/PalindromoTeste.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="195">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aplicacao/cabreros/testes/PalindromoTeste.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aplicacao/leilao/testes/AvaliadorTeste.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        <state relative-caret-position="210">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aplicacao/leilao/testes/LeilaoTeste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="69" column="51" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
